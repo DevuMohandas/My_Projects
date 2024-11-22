@@ -1,0 +1,43 @@
+.row{
+    margin-left: 20px;
+    color: #fff;
+}
+
+.posters{
+    display: flex;  /* to display multiple images row wise */
+    padding: 20px;
+    overflow-x: scroll;
+}
+
+.posters::-webkit-scrollbar{        /* to disable the scrollbar at bottom */
+    display: none;
+}
+
+.poster{
+    max-height: 250px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.poster:hover{
+    transform: scale(1.03);
+}
+
+.smallPoster{
+    max-height: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.smallPoster:hover{
+    transform: scale(1.03);
+}
+
+.Com{
+    max-height: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
